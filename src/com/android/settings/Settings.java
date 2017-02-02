@@ -169,5 +169,5 @@ public class Settings extends SettingsActivity {
     // AospExtended Additions.
     public static class ExtensionsSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
-
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
