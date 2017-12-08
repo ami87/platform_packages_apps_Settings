@@ -129,6 +129,18 @@
         android:key="doze"
         android:title="@string/doze_title"
         android:summary="@string/doze_summary" />
+    
+    <SwitchPreference
+        android:key="ambient_doze_auto_brightness"
+        android:title="@string/ambient_doze_auto_brightness_title"
+        android:summary="@string/ambient_doze_auto_brightness_summary"
+        android:dependency="auto_brightness" />
+ 
+    <org.aospextended.extensions.preference.CustomSeekBarPreference
+        android:key="ambient_doze_custom_brightness"
+        android:title="@string/ambient_doze_custom_brightness_title"
+        android:max="255"
+        settings:units="" />
 
     <org.aospextended.extensions.preference.SecureSettingSwitchPreference
         android:key="doze_always_on"

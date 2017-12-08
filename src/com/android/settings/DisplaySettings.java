@@ -32,6 +32,8 @@ import com.android.settings.display.CustomDozePreferenceController;
 import com.android.settings.display.DozeAlwaysOnPreferenceController;
 import com.android.settings.display.DozeCategoryPreferenceController;
 import com.android.settings.display.DozePreferenceController;
+import com.android.settings.display.DozeAutoBrightnessPreferenceController;
+import com.android.settings.display.DozeCustomBrightnessPreferenceController;
 import com.android.settings.display.FontSizePreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
 import com.android.settings.display.NightDisplayPreferenceController;
@@ -98,6 +100,8 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new AutoRotatePreferenceController(context));
         controllers.add(new CameraGesturePreferenceController(context));
         controllers.add(new DozePreferenceController(context));
+        controllers.add(new DozeCustomBrightnessPreferenceController(context));
+        controllers.add(new DozeAutoBrightnessPreferenceController(context));
         controllers.add(new CustomDozePreferenceController(context));
         controllers.add(new DozeAlwaysOnPreferenceController(context));
         controllers.add(new DozeCategoryPreferenceController(context));
