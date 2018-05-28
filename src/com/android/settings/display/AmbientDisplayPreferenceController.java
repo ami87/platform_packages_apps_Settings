@@ -41,7 +41,7 @@ public class AmbientDisplayPreferenceController extends AbstractPreferenceContro
 
     @Override
     public boolean isAvailable() {
-        return mConfig.available();
+        return false;
     }
 
     @Override
